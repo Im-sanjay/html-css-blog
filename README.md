@@ -7,3 +7,4 @@ it is a simple blog website created in html css bootstrap and jquery
 --> contact us page with map 
 --> post page ( actual post ) with similar post category 
 --> search bar 
+* here is the link : https://myfirsthtmlcssblog.netlify.com/
