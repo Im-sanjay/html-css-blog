@@ -1,0 +1,391 @@
+.jumbotron{
+	height: 200px;
+	overflow: hidden;
+}
+
+body{
+	font-family: 'oswald', sans-sarif;
+	background-color: lightgrey;
+}
+.jumbotron img{
+	width: 100%;
+
+}
+
+.jumbotron #details{
+	position: absolute;
+}
+
+.jumbotron #details h1{
+	color: white;
+	margin-left: 10px;
+}
+
+.jumbotron #details p{
+	color: white;
+	margin-left: 10px;
+}
+
+
+.popular {
+	background: white;
+	padding: 20px;
+	border-radius: 12px;
+
+}
+
+.popular img{
+	width: 100%;
+	margin-top: 10px;
+	height: 50px;
+	width: 60px;
+}
+
+.popular ul li{
+	list-style: none;
+}
+
+section .widgets{
+	margin-bottom: 20px;
+}
+
+.popular .details{
+	margin-left:-20px;
+}
+/*.popular .details h4{
+	font-family: ariel;
+	font-size: 20px;
+}
+.details p{
+	font-size: 14px;
+	}
+}*/
+
+.popular .details{
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+
+.popular .details h4{
+	
+	font-size: 16px;
+}
+
+
+.popular .details p {
+	
+	font-size: 12px;
+}
+
+
+.categories{
+	background: white;
+	padding: 20px;
+	border-radius: 12px;
+
+}
+
+.post{
+	background: white;
+	border: 1px solid #e3e3e3;
+	margin: 15px 0px;
+	padding: 15px;
+}
+
+.post .post-date{
+/*	padding: 20px;*/
+	text-align:center;
+}
+
+.post .post-date .day{
+	/*font-size: 30px;*/
+	color: #24A7CF;
+}
+
+.post .post-date .months{
+	
+}
+
+.post .post-date .year{
+	
+	font-weight: 100px;
+}
+
+
+.post .post-title{
+	padding: 5px 20px;
+}
+
+.post .post-title span{
+	color: #24A7CF;
+	font-weight:100px;
+	margin-left: 10px
+}
+
+.post .profile-picture img{
+	width: 60%;
+}
+
+
+.post > a > img{
+	width:100%;
+	margin-top: -10px;
+}
+
+.post .desc {
+	font-family: ariel;
+
+	font-weight: 100;
+	padding: 15px;
+	line-height: 20px;
+}
+
+.post > a.btn{
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.post .bottom{
+	padding: 10px 20px;
+	border-top: 1px solid #e3e3e3;
+}
+
+.post .bottom .first{
+	margin-right: 20px;
+}
+
+.post .bottom .first{
+	margin-left: 20px;
+}
+
+
+nav #pagi{
+	text-align: center;
+}
+
+.contact-form{
+	background:white;
+	padding: 50px 25px;
+	margin-top: 10px;
+}
+
+
+.contact-form textarea{
+	resize: none;
+}
+
+
+footer{
+	background-color: black;
+	height: 50px;
+	line-height: 50px;
+	color:white;
+	letter-spacing: 1px;
+	
+}
+
+.related-post{
+	background: white;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+
+
+
+
+}
+
+.related-post img{
+	width: 100%;
+}
+
+
+.author{
+	background: white;
+	padding: 20px;
+	margin-bottom: 10px;
+
+}
+
+
+.author img{
+	width: 100%;
+
+}
+
+.author h3{
+	color: #24A7CF;
+	text-decoration: underline;
+	font-size: 15px;
+	/*margin-left: -30px;*/
+}
+
+.author p{
+	font-size: 15px;
+	/*margin-left: -30px;*/
+}
+
+.comment{
+	background: white;
+	padding: 20px;
+	margin-bottom: 15px;
+
+}
+
+.comment h3{
+	color: #24A7CF;
+}
+
+.comment img{
+	width: 70%;
+}
+
+.comment p{
+	font-weight: 100;
+	/*font-family: sans-serif;*/
+}
+
+.comment .single-comment{
+	margin-bottom: 10px;
+}
+
+
+.comment-box{
+	margin-bottom: 15px;
+	background: white;
+	padding: 20px;
+}
+
+.comment-box textarea{
+	resize: none;
+}
+
+
+
+@media(max-width: 789px){
+	body{
+		background: red;
+	}
+
+	.jumbotron #details{
+	margin-top: 30px;
+}
+
+.post .post-title{
+	margin-top: -30px;
+	text-align:center;
+	margin-top: 2px;
+}
+
+.post .profile-picture{
+	text-align: center;
+}
+
+.post .profile-picture img{
+	margin-top: -20px;
+	margin-bottom: 20px;
+	width: 10%;
+
+}
+
+
+.author{
+	background: white;
+	padding: 20px;
+	margin-bottom: 25px;
+	text-align: center;
+
+}
+
+
+.author img{
+	width: 40%;
+
+
+}
+
+.author h3{
+	color: #24A7CF;
+	text-decoration: underline;
+	font-size: 15px;
+	/*margin-left: -30px;*/
+}
+
+.author p{
+	font-size: 15px;
+	/*margin-left: -30px;*/
+}
+
+.comment{
+	background: white;
+	padding: 20px;
+	margin-bottom: 15px;
+
+}
+
+.comment h3{
+	color: #24A7CF;
+}
+
+.comment img{
+	width: 30%;
+}
+
+.comment p{
+	font-weight: 100;
+	/*font-family: sans-serif;*/
+}
+
+.comment .single-comment{
+	margin-bottom: 10px;
+}
+
+}
+
+
+
+
+@media(max-width: 1200px){
+	body{
+		background-color: yellow;
+	}
+
+
+.popular .details{
+	margin-left:-10px;
+	margin-top: -50px;
+}
+/*.popular .details h4{
+	font-family: ariel;
+	font-size: 20px;
+}
+.details p{
+	font-size: 14px;
+	}
+}*/
+
+.popular .details{
+	margin-left: 70px;
+	font-size: 10px;
+}
+
+
+.popular img{
+	width: 100%;
+	margin-top: 10px;
+	height: 50px;
+	width: 60px;
+}
+/*
+.popular .details h4{
+	
+	font-size: 16px;
+}
+*/
+
+/*.popular .details p {
+	
+	font-size: 12px;
+}
+*/
+}
